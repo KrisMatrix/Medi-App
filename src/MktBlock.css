@@ -1,0 +1,10 @@
+.blurb2 {
+  color: white;
+  font-size: 4rem;
+  width: 100%;
+  background-image: url("blurb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}

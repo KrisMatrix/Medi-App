@@ -1,0 +1,53 @@
+.headline {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2%;
+}
+
+.headline > img {
+}
+
+.blurb-box {
+  margin-top: 25%; 
+  margin-bottom: 25%; 
+  margin-left: 5%; 
+  margin-right: 5%; 
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: rgba(0,0,0, 0.7);
+  color: white;
+  text-align: center;
+}
+
+.blurb-box > h1 {
+  font-size: 3rem;
+}
+
+.blurb-box > h2 {
+  font-size: 2rem;
+}
+
+.blurb-box > p {
+  font-size: 2rem;
+}
+
+.blurb-box > button {
+  background-color: red;
+  color: yellow;
+  font-size: 2rem;
+  border: none;
+  border-radius: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.blurb-box > button:hover {
+  background-color: pink;
+  cursor: pointer;
+}
