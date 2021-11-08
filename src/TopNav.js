@@ -5,12 +5,9 @@ function TopNav(props) {
   return (
     <nav className="topnav">
       <ul>
-        <li><a onClick={() => props.parentCallback('home') } 
-          href=".">Home</a></li>
-        <li><a onClick={() => props.parentCallback('meditate') } 
-          href=".">Meditate</a></li>
-        <li><a onClick={() => props.parentCallback('contact-us') } 
-          href=".">Contact</a></li>
+        <li onClick={() => props.onChange('home') }>Home</li>
+        <li onClick={() => props.onChange('meditate') }>Meditate</li>
+        <li onClick={() => props.onChange('contact-us') }>Contact</li>
       </ul>
     </nav>
   );

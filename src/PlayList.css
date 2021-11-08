@@ -1,0 +1,28 @@
+.playSideNav {
+  color: white;
+  background-color: red;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.playSideNav > ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.playSideNav > ul > li {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow-wrap: break-word;
+}
+
+.playSideNav > ul > li:hover {
+  background-color: pink;
+  cursor: pointer;
+}

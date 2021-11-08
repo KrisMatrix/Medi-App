@@ -1,0 +1,9 @@
+.meditate-desktop {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.meditate-phone {
+  display: block;
+  width: 100%;
+}

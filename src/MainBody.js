@@ -3,6 +3,7 @@ import Headline from './Headline.js';
 import MktBlockPhone from './MktBlockPhone.js';
 import MktBlock from './MktBlock.js';
 import ContactUs from './ContactUs.js';
+import MeditateBlock from './MeditateBlock.js';
 
 function MainBody(props) {
   //console.log(props.name);
@@ -24,7 +25,7 @@ function MainBody(props) {
   }
   else if (props.name === 'meditate') {
     return (
-      <h1> COMING SOON </h1>
+      <MeditateBlock />
     );
   }
 }
