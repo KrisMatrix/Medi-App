@@ -34,3 +34,24 @@
   text-align: center;
   color: white;
 }
+
+.timer-settings > h1 {
+  font-size: 4rem;
+}
+
+.timer-settings > div {
+  font-size: 3rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.timer-settings > div > select {
+  font-size: 3rem;
+}
+
+.timer-settings > div > i {
+  padding-left: 5%;
+  padding-right: 5%;
+}
